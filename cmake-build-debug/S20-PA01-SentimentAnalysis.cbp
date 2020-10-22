@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/cmake-build-debug"/>
+				<Option working_dir="/Users/stimmins/Documents/GitHub/Sentiment-Analysis/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Sentiment-Analysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Sentiment-Analysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Sentiment-Analysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Sentiment-Analysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/cmake-build-debug"/>
+				<Option working_dir="/Users/stimmins/Documents/GitHub/Sentiment-Analysis/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Sentiment-Analysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Sentiment-Analysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Sentiment-Analysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Sentiment-Analysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/cmake-build-debug"/>
+				<Option working_dir="/Users/stimmins/Documents/GitHub/Sentiment-Analysis/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Sentiment-Analysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Sentiment-Analysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Sentiment-Analysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Sentiment-Analysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="SentimentAnalyzer">
-				<Option output="/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/cmake-build-debug/SentimentAnalyzer" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/cmake-build-debug"/>
+				<Option output="/Users/stimmins/Documents/GitHub/Sentiment-Analysis/cmake-build-debug/SentimentAnalyzer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stimmins/Documents/GitHub/Sentiment-Analysis/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -58,15 +58,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 SentimentAnalyzer"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Sentiment-Analysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 SentimentAnalyzer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Sentiment-Analysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Sentiment-Analysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Sentiment-Analysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="SentimentAnalyzer/fast">
-				<Option output="/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/cmake-build-debug/SentimentAnalyzer" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/cmake-build-debug"/>
+				<Option output="/Users/stimmins/Documents/GitHub/Sentiment-Analysis/cmake-build-debug/SentimentAnalyzer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stimmins/Documents/GitHub/Sentiment-Analysis/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -85,41 +85,41 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 SentimentAnalyzer/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Sentiment-Analysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 SentimentAnalyzer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Sentiment-Analysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Sentiment-Analysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Sentiment-Analysis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/DSString.cpp">
+		<Unit filename="/Users/stimmins/Documents/GitHub/Sentiment-Analysis/DSString.cpp">
 			<Option target="SentimentAnalyzer"/>
 		</Unit>
-		<Unit filename="/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/DSString.h">
+		<Unit filename="/Users/stimmins/Documents/GitHub/Sentiment-Analysis/DSString.h">
 			<Option target="SentimentAnalyzer"/>
 		</Unit>
-		<Unit filename="/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/FileManagement.cpp">
+		<Unit filename="/Users/stimmins/Documents/GitHub/Sentiment-Analysis/FileManagement.cpp">
 			<Option target="SentimentAnalyzer"/>
 		</Unit>
-		<Unit filename="/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/FileManagement.h">
+		<Unit filename="/Users/stimmins/Documents/GitHub/Sentiment-Analysis/FileManagement.h">
 			<Option target="SentimentAnalyzer"/>
 		</Unit>
-		<Unit filename="/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/catch.hpp">
+		<Unit filename="/Users/stimmins/Documents/GitHub/Sentiment-Analysis/catch.hpp">
 			<Option target="SentimentAnalyzer"/>
 		</Unit>
-		<Unit filename="/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/main.cpp">
+		<Unit filename="/Users/stimmins/Documents/GitHub/Sentiment-Analysis/main.cpp">
 			<Option target="SentimentAnalyzer"/>
 		</Unit>
-		<Unit filename="/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/test.cpp">
+		<Unit filename="/Users/stimmins/Documents/GitHub/Sentiment-Analysis/test.cpp">
 			<Option target="SentimentAnalyzer"/>
 		</Unit>
-		<Unit filename="/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/CMakeLists.txt">
+		<Unit filename="/Users/stimmins/Documents/GitHub/Sentiment-Analysis/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/IMDB.csv">
+		<Unit filename="/Users/stimmins/Documents/GitHub/Sentiment-Analysis/IMDB.csv">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/stopwords.txt">
+		<Unit filename="/Users/stimmins/Documents/GitHub/Sentiment-Analysis/stopwords.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

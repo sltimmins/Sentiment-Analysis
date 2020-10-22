@@ -1,4 +1,4 @@
-# Install script for directory: /Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins
+# Install script for directory: /Users/stimmins/Documents/GitHub/Sentiment-Analysis
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/stimmins/Documents/GitHub/Sentiment-Analysis/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

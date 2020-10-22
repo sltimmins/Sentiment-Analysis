@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/Classifier.h
+/Users/stimmins/Documents/GitHub/Sentiment-Analysis/Classifier.h
 iostream
 -
 fstream
@@ -18,17 +18,27 @@ map
 vector
 -
 DSString.h
-/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/DSString.h
+/Users/stimmins/Documents/GitHub/Sentiment-Analysis/DSString.h
 FileManagement.h
-/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/FileManagement.h
+/Users/stimmins/Documents/GitHub/Sentiment-Analysis/FileManagement.h
 
-/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/DSString.h
+/Users/stimmins/Documents/GitHub/Sentiment-Analysis/DSString.cpp
+DSString.h
+/Users/stimmins/Documents/GitHub/Sentiment-Analysis/DSString.h
+
+/Users/stimmins/Documents/GitHub/Sentiment-Analysis/DSString.h
 iostream
 -
 cstring
 -
 
-/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/FileManagement.h
+/Users/stimmins/Documents/GitHub/Sentiment-Analysis/FileManagement.cpp
+iostream
+-
+FileManagement.h
+/Users/stimmins/Documents/GitHub/Sentiment-Analysis/FileManagement.h
+
+/Users/stimmins/Documents/GitHub/Sentiment-Analysis/FileManagement.h
 fstream
 -
 vector
@@ -38,9 +48,9 @@ map
 set
 -
 DSString.h
-/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/DSString.h
+/Users/stimmins/Documents/GitHub/Sentiment-Analysis/DSString.h
 
-/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/catch.hpp
+/Users/stimmins/Documents/GitHub/Sentiment-Analysis/catch.hpp
 TargetConditionals.h
 -
 ciso646
@@ -416,7 +426,7 @@ string
 memory
 -
 Foundation/Foundation.h
-/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/Foundation/Foundation.h
+/Users/stimmins/Documents/GitHub/Sentiment-Analysis/Foundation/Foundation.h
 limits
 -
 set
@@ -620,13 +630,21 @@ algorithm
 cassert
 -
 
-/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/main.cpp
+/Users/stimmins/Documents/GitHub/Sentiment-Analysis/main.cpp
 iostream
 -
 fstream
 -
 Classifier.h
-/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/Classifier.h
+/Users/stimmins/Documents/GitHub/Sentiment-Analysis/Classifier.h
 catch.hpp
-/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/catch.hpp
+/Users/stimmins/Documents/GitHub/Sentiment-Analysis/catch.hpp
+
+/Users/stimmins/Documents/GitHub/Sentiment-Analysis/test.cpp
+catch.hpp
+/Users/stimmins/Documents/GitHub/Sentiment-Analysis/catch.hpp
+cstring
+-
+DSString.h
+/Users/stimmins/Documents/GitHub/Sentiment-Analysis/DSString.h
 

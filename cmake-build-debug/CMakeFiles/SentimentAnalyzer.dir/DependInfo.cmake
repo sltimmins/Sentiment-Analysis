@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/DSString.cpp" "/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/cmake-build-debug/CMakeFiles/SentimentAnalyzer.dir/DSString.cpp.o"
-  "/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/FileManagement.cpp" "/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/cmake-build-debug/CMakeFiles/SentimentAnalyzer.dir/FileManagement.cpp.o"
-  "/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/main.cpp" "/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/cmake-build-debug/CMakeFiles/SentimentAnalyzer.dir/main.cpp.o"
-  "/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/test.cpp" "/Users/stimmins/Documents/GitHub/20f-sent-an-sltimmins/cmake-build-debug/CMakeFiles/SentimentAnalyzer.dir/test.cpp.o"
+  "/Users/stimmins/Documents/GitHub/Sentiment-Analysis/DSString.cpp" "/Users/stimmins/Documents/GitHub/Sentiment-Analysis/cmake-build-debug/CMakeFiles/SentimentAnalyzer.dir/DSString.cpp.o"
+  "/Users/stimmins/Documents/GitHub/Sentiment-Analysis/FileManagement.cpp" "/Users/stimmins/Documents/GitHub/Sentiment-Analysis/cmake-build-debug/CMakeFiles/SentimentAnalyzer.dir/FileManagement.cpp.o"
+  "/Users/stimmins/Documents/GitHub/Sentiment-Analysis/main.cpp" "/Users/stimmins/Documents/GitHub/Sentiment-Analysis/cmake-build-debug/CMakeFiles/SentimentAnalyzer.dir/main.cpp.o"
+  "/Users/stimmins/Documents/GitHub/Sentiment-Analysis/test.cpp" "/Users/stimmins/Documents/GitHub/Sentiment-Analysis/cmake-build-debug/CMakeFiles/SentimentAnalyzer.dir/test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
