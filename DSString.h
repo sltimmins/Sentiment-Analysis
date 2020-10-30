@@ -21,22 +21,21 @@ public:
     DSString&operator=(const char*);
     DSString operator+(const DSString&) const;
     DSString operator+(const char*);
-    DSString& operator+(const char);
+    DSString operator+(const char);
     bool operator==(const char*);
     bool operator==(const DSString&);
     bool operator>(const DSString&);
     bool operator<(const DSString&) const;
-    char& operator[](const int) const;
+    char& operator[](const int);
     friend std::ostream& operator<<(std::ostream&, const DSString&);
 
     void print();
-    int getLength() const;
+    int getLength();
     int getCapacity();
     char* getString();
-    DSString substr(int pos, int npos) const;
+    DSString substr(int pos, int npos);
     char* c_str();
-    int dsstoi();
-    float dsstof();
+
 
 private:
     char* data;

@@ -5,9 +5,9 @@
 
 DSString::DSString() //default constructor
 {
-    data = new char[1];
+    data = new char[10];
     length = 0;
-    capacity = 1;
+    capacity = 10;
 }
 
 DSString::DSString(const char *word) //constructor is passed a char* array
@@ -88,14 +88,17 @@ DSString DSString::operator+(const char *word) //+ operator overload for when DS
     return newString;
 }
 
-DSString& DSString::operator+(const char character) //+ operator overload for when DSString is added to a char
+DSString DSString::operator+(const char character) //+ operator overload for when DSString is added to a char
 {
-    length += 1;
-    capacity += 1;
-    data[length - 1] = character;
-    data[capacity - 1] = '\0';
+    DSString newString;
+    newString.length = this->length + 1;
+    newString.capacity = this->capacity + 1;
+    newString.data = new char[newString.capacity];
+    strcpy(newString.data, this->data);
+    newString.data[length] = character;
+    newString.data[newString.capacity - 1] = '\0';
 
-    return *this;
+    return newString;
 }
 
 bool DSString::operator==(const char *word){ //equality operator overload to compare a DSString to a char*
@@ -134,7 +137,7 @@ bool DSString::operator<(const DSString &compare) const{ //< operator overload t
     }
 }
 
-char& DSString::operator[](const int x) const { //[] operator overload to access a single char in a DSString
+char& DSString::operator[](const int x) { //[] operator overload to access a single char in a DSString
     return data[x];
 }
 
@@ -163,7 +166,7 @@ int DSString::getCapacity() //returns capacity
     return capacity;
 }
 
-int DSString::getLength() const //returns length
+int DSString::getLength() //returns length
 {
     return length;
 }
@@ -173,7 +176,7 @@ char* DSString::getString() //returns the data string
     return data;
 }
 
-DSString DSString::substr(int pos, int npos) const //returns a DSString of the indexes passed to it
+DSString DSString::substr(int pos, int npos) //returns a DSString of the indexes passed to it
 {
     DSString toReturn;
     char *temp = new char[npos - pos + 1];
@@ -187,21 +190,10 @@ DSString DSString::substr(int pos, int npos) const //returns a DSString of the i
 
     temp[j] = '\0';
     toReturn = temp;
-    delete [] temp;
     return toReturn;
 }
 
 char* DSString::c_str() //converts the DSString to a cstring
 {
     return data;
-}
-
-int DSString::dsstoi()
-{
-    return stoi(data);
-}
-
-float DSString::dsstof()
-{
-    return stof(data);
 }
