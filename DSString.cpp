@@ -90,15 +90,27 @@ DSString DSString::operator+(const char *word) //+ operator overload for when DS
 
 DSString DSString::operator+(const char character) //+ operator overload for when DSString is added to a char
 {
-    DSString newString;
-    newString.length = this->length + 1;
-    newString.capacity = this->capacity + 1;
-    newString.data = new char[newString.capacity];
-    strcpy(newString.data, this->data);
-    newString.data[length] = character;
-    newString.data[newString.capacity - 1] = '\0';
+    char *temp = new char[capacity];
+    length += 1;
+    capacity += 1;
 
-    return newString;
+    for(int i = 0; i < capacity - 1; i++)
+    {
+        temp[i] = data[i];
+    }
+
+    delete [] data;
+    data = new char[capacity];
+
+    for(int i = 0; i < length; i++)
+    {
+        data[i] = temp[i];
+    }
+    data[length - 1] = character;
+    data[capacity - 1] = '\0';
+    delete [] temp;
+
+    return *this;
 }
 
 bool DSString::operator==(const char *word){ //equality operator overload to compare a DSString to a char*
